@@ -65,5 +65,6 @@ def play():
   limits, n_trials = set_game_settings(game_level)
   start_play(limit, trials)
 
-play()
+if __name__ == '__main__':
+    play()
 
